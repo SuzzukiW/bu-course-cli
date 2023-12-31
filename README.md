@@ -1,1 +1,1 @@
-# bu-course-tool
+# BU Course CLI
