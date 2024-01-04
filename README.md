@@ -48,15 +48,15 @@ After installation, you can use the following commands:
   ```
 - **Search for Courses**:
   ```bash
-  bu-course-cli --search "data science"
+  bu-course-cli --search "Data Science"
   ```
 - **Compare Two Courses**:
   ```bash
-  bu-course-cli --compare "CDS DS 100,CDS DS 101"
+  bu-course-cli --compare "CDS DS 320, CDS DS 340"
   ```
 - **Check Course Prerequisites**:
   ```bash
-  bu-course-cli --prereqs "CDS DS 100"
+  bu-course-cli --prereqs "CDS DS 380"
   ```
 
 ## Configuration
