@@ -10,21 +10,30 @@ BU Course CLI is a command-line tool designed to interact with the Boston Univer
 - **Compare Courses**: Compare the details of two courses side-by-side.
 - **Check Prerequisites**: View the prerequisites for a specific course.
 
+
 ## Installation
-To install BU Course CLI, follow these steps:
+BU Course CLI can be installed directly using pip, which is the package installer for Python. You can install it globally or in a virtual environment by running the following command:
+
+```bash
+pip install bu-course-cli
+```
+
+Alternatively, if you wish to contribute or make changes to the project, you can clone the repository and install the package in editable mode:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/SuzzukiW/bu-course-cli.git
-   ```
+
+```bash
+git clone https://github.com/SuzzukiW/bu-course-cli.git
+```
+
 2. Navigate to the project directory:
-   ```bash
-   cd bu-course-cli
-   ```
-3. Install the package:
-   ```bash
-   pip install -e .
-   ```
+```bash
+cd bu-course-cli
+```
+3. Install the package in editable mode:
+```bash
+pip install -e .
+```
 
 ## Usage
 After installation, you can use the following commands:
