@@ -7,7 +7,6 @@ attrs==23.1.0
 backcall==0.2.0
 beautifulsoup4==4.12.2
 blinker==1.7.0
--e git+https://github.com/Homebrew/brew@c32bd1c7cc0c3b1b914845bddfeda53f4d877a3f#egg=bu_course_cli
 cachetools==5.3.2
 certifi==2023.7.22
 charset-normalizer==3.3.1
@@ -135,5 +134,3 @@ Werkzeug==3.0.1
 widgetsnbextension==4.0.9
 wsproto==1.2.0
 zipp==3.17.0
-gunicorn
-
