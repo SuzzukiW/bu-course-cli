@@ -87,7 +87,7 @@ def main():
     parser.add_argument('--search', help="Search courses by keyword", type=str)
     parser.add_argument('--compare', help="Compare two courses by code, separated by a comma", type=str)
     parser.add_argument('--prereqs', help="Get prerequisites for a specific course by code", type=str)
-    parser.add_argument('--base-url', help="Base URL for the courses API", type=str, default="http://127.0.0.1:5000")
+    parser.add_argument('--base-url', help="Base URL for the courses API", type=str, default="https://bu-course-cli-410302.ue.r.appspot.com")
 
     args = parser.parse_args()
 
