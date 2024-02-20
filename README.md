@@ -59,6 +59,30 @@ After installation, you can use the following commands:
   bu-course-cli --prereqs "CDS DS 380"
   ```
 
+## Sample Output
+
+You may get something like this:
+
+```bash
+{
+  "BU_Hub": [
+    "Quantitative Reasoning II",
+    "Ethical Reasoning",
+    "Critical Thinking"
+  ],
+  "course_code": "CDS DS 340",
+  "course_title": "Introduction to Machine Learning and AI",
+  "description": "Undergraduate Prerequisites: CDSDS320 This course instructs students in key algorithms for classic artificial intelligence (AI) and modern machine learning (ML). Along the way, we seek to explore what kinds of problems these techniques are good and bad at, and build intuition for what makes a good search or machine learning problem. The primary assessment tools will be programming problem sets in Python, using Jupyter notebooks. Effective Fall 2022, this course fulfills a single unit in each of the following BU Hub areas: Ethical Reasoning, Quantitative Reasoning II, Critical Thinking. BU Hub Learn More Quantitative Reasoning IIEthical ReasoningCritical Thinking",
+  "prerequisites": "CDSDS320"
+}
+```
+
+by using:
+
+```bash
+bu-course-cli --get "CDS DS 340"
+```
+
 ## Configuration
 You can configure the base URL for the course API by using the `--base-url` option with any command. By default, it uses `http://127.0.0.1:5000`.
 
